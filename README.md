@@ -32,6 +32,7 @@ The student will be more likely selected if he/she:
 
 - [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
 - [Casbin for Java](#casbin-for-java)
+- [Casbin for Rust](#casbin-for-rust)
 
 ### Casbin Core Engine (Golang)
 
@@ -74,3 +75,35 @@ Some issues to work on: https://github.com/casbin/jcasbin/issues
 #### Mentor
 
 [Zhengjin Fang](https://github.com/fangzhengjin), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin for Rust
+
+#### Description
+
+With Casbin community's effort, the Rust version of Casbin is now mature and ready for production. [Casbin-RS](https://github.com/casbin/casbin-rs) can provide access control with blazing fast speed. There are something need to be implemented:
+
+1. Rust version of [Casbin-Server](https://github.com/casbin/casbin-server) 
+
+- Use [Tonic](https://github.com/hyperium/tonic) to implement a gRPC server
+
+- Compatible with multiple adapters: [Diesel-Adapter](https://github.com/casbin-rs/diesel-adapter), [Sqlx-Adapter](https://github.com/casbin-rs/sqlx-adapter), [YAML-Adapter](https://github.com/casbin-rs/yaml-adapter)
+
+2. JSON Adapter for Casbin-RS
+
+- Fully Asynchronous runtime support with [Tokio](https://github.com/tokio-rs/tokio) and [async-std](https://github.com/async-rs/async-std)
+
+- Support read and write
+
+3. Rocket Middleware for Casbin-RS ([#93](https://github.com/casbin/casbin-rs/issues/93))
+
+- Implement a middleware for [Rocket](https://github.com/SergioBenitez/Rocket) using [Fairings](https://rocket.rs/v0.4/guide/fairings/#fairings)
+
+#### Requirements
+
+1. Rust
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Yisheng Chai](https://github.com/hackerchai), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
