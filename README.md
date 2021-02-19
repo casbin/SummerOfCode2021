@@ -42,6 +42,7 @@ The student will be more likely selected if he/she:
 - [Casbin for Python](#casbin-for-python)
 - [Casbin.js](#casbinjs)
 - [Casbin for Lua](#casbin-for-lua)
+- [Casbin for Dart](#casbin-for-dart)
 
 ### Casbin Core Engine (Golang)
 
@@ -319,3 +320,20 @@ The current progress is: https://github.com/casbin/lua-casbin
 #### Mentor
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin for Dart
+
+#### Description
+
+Port Casbin to Dart, little progress has been made in the project so it's excellent for jumping in early, you will be responsible for the design and making of the Dart port with the help of the mentor, most of Casbin's functionalities should work.
+
+The current progress is: https://github.com/casbin/dart-casbin
+
+#### Requirements
+
+1. Dart
+2. Other languages that Casbin is written with.
+
+#### Mentor
+
+[Tomás Arias](https://github.com/KNawm), Casbin member
