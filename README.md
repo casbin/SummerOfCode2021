@@ -34,6 +34,8 @@ The student will be more likely selected if he/she:
 - [Casbin for Java](#casbin-for-java)
 - [Casbin for .NET](#casbin-for-net)
 - [Casbin for Rust](#casbin-for-rust)
+- [Casbin for Node.js](#casbin-for-node.js)
+- [Casbin Hub](#casbin-hub)
 
 ### Casbin Core Engine (Golang)
 
@@ -143,3 +145,41 @@ With Casbin community's effort, the Rust version of Casbin is now mature and rea
 
 [Yisheng Chai](https://github.com/hackerchai), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
+### Casbin for Node.js
+
+Improving the user experience of Node-Casbin will be our focus. Currently, Node-Casbin provides a set of asynchronous API, if we can provide a set of synchronous API, it will be a great experience.
+
+Some issues to work on:
+
+- Support a full set of Sync API like enforcer.enforce()(https://github.com/casbin/node-casbin/issues/224)
+
+- Scaling Access Control Lists for multi-million users(https://github.com/casbin/node-casbin/issues/147)
+
+- Sequelize v6 compatibility: addPolicies & removePolicies problem(https://github.com/casbin/node-casbin/issues/207)
+
+#### Requirements
+
+1. JavaScript (Node.js/TypeScript)
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Zixuan Liu](https://github.com/nodece), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin Hub
+
+Casbin Hub is similar to [Docker Hub](https://hub.docker.com/search?q=&type=edition&offering=community) website, which is mainly used to share and discuss the model and policy of Casbin, we need to implement the following features:
+
+1. Support anyone to share the model and policy of Casbin. Sharers must describe the scenario that this model applies, and mark the classification, like so: Frontend, Backend, Cloud, Message System, and so on. Users can discuss shared content.
+
+2. Integrate the [Casbin-Online-Editor](https://casbin.org/en/editor) is used to test or debug the model and policy shared by users.
+
+#### Requirements
+
+1. Golang (Backend)
+2. React (Frontend)
+3. Casbin
+
+#### Mentor
+
+[Zixuan Liu](https://github.com/nodece), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
