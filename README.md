@@ -1,6 +1,6 @@
 # Google Summer Of Code 2021 for Casbin
 
-Note: the organization application for GSoC 2021 is not started yet. This page only tracks for potential ideas of Casbin for GSoC 2021. We will apply for it but it does NOT mean that Casbin will definitely be selected as a participating organization for GSoC 2021.
+Note: This page tracks the ideas from Casbin community for GSoC 2021. Casbin has finished the organization application for GSoC 2021 but it does NOT mean that Casbin will definitely be selected by Google as a participating organization for GSoC 2021.
 
 Moreover, there are some significant changes like the smaller project size in GSoC 2021, see details at GSoC official site: https://opensource.googleblog.com/2020/10/google-summer-of-code-2021-is-bringing.html
 
