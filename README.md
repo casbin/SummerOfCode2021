@@ -33,6 +33,7 @@ The student will be more likely selected if he/she:
 - [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
 - [Casbin for Java](#casbin-for-java)
 - [Casbin for .NET](#casbin-for-net)
+- [Casbin Sam](#casbin-sam)
 - [Casbin for Rust](#casbin-for-rust)
 
 ### Casbin Core Engine (Golang)
@@ -105,6 +106,28 @@ The feature and ecosystem of Casbin.NET are gradually improving. We hope to prov
 
 1. .NET/C#
 2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Joey](https://github.com/xcaptain), Casbin member, [Zhikui Hua](https://github.com/huazhikui), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin Sam
+
+#### Description
+A authorization service based on OAuth 2.x and support centralized authentication / Single-Sign-On (SSO) integration. It can:
+
+1. Use [Casbin.NET](https://github.com/casbin/Casbin.NET) and [Casbin.AspNetCore](https://github.com/casbin-net/casbin-aspnetcore) to authorizate.
+2. Provide Web APIs to manage users, roles and permissions.
+3. Support integrate OIDC authentication provider ([Identity Server 4](https://github.com/IdentityServer/IdentityServer4)) and [ASP.NET Identity](http://docs.identityserver.io/en/latest/quickstarts/6_aspnet_identity.html) to manage user and sgin in/out.
+4. Support be integrated to [Dapr](https://github.com/dapr/dapr) or [Steeltoe](https://github.com/SteeltoeOSS/Steeltoe) as authentication/authorization provider.
+
+The current progress is: https://github.com/casbin-net/casbin-sam. We want the student to continue the work.
+
+#### Requirements
+
+1. .NET/C#
+2. [Casbin.NET](https://github.com/casbin/Casbin.NET) and [Casbin.AspNetCore](https://github.com/casbin-net/casbin-aspnetcore)
+3. [Dapr](https://github.com/dapr/dapr) or [Steeltoe](https://github.com/SteeltoeOSS/Steeltoe)
 
 #### Mentor
 
