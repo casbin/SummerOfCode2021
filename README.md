@@ -31,6 +31,7 @@ The student will be more likely selected if he/she:
 ## Ideas
 
 - [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
+- [Casdoor](#casdoor)
 - [Casbin for Java](#casbin-for-java)
 - [Casbin for .NET](#casbin-for-net)
 - [Casbin for Rust](#casbin-for-rust)
@@ -56,6 +57,30 @@ Some issues to work on:
 
 1. Golang
 2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casdoor
+
+#### Description
+
+Build a UI-first centralized authentication / Single-Sign-On (SSO) platform based on OAuth 2.0 / OIDC. It can:
+
+1. Use OAuth 2.0 + OIDC as the authentication protocols.
+2. Support popular 3rd-party identity providers like Google, GitHub, Facebook, etc.
+3. Has a web portal to manage users, roles and permissions.
+4. Use Casbin as authorization method.
+5. Support user register, login, password reset, 2FA like Email and SMS.
+
+The current progress is: https://door.casbin.com/. Source code: https://github.com/casbin/casdoor. We want the student to continue the work.
+
+#### Requirements
+
+1. Golang (backend)
+2. Javascript + React + Ant Design (frontend)
+3. Casbin
 
 #### Mentor
 
