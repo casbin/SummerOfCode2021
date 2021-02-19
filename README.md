@@ -43,15 +43,14 @@ The student will be more likely selected if he/she:
 
 #### Description
 
-Extend the Casbin model/policy grammar to support more features in Casbin core engine. This will first be done in Golang Casbin. Possibly applied to other language implementations.
+Support more features and tune the performance in Casbin core engine. This will first be done in Golang Casbin. Possibly applied to other language implementations.
 
 Some issues to work on:
 
-1. support pattern function in 3rd args of g: https://github.com/casbin/casbin/issues/337
-2. Resolve policy conflicts: https://github.com/casbin/casbin/issues/338
-3. Scaling ABAC Rules: https://github.com/casbin/casbin/issues/354
-4. Explain enforcement by informing matched rules: https://github.com/casbin/casbin/issues/355
-5. Make GetImplicitPermissionsForUser Deep: https://github.com/casbin/casbin/issues/357
+1. Resolve policy conflicts: https://github.com/casbin/casbin/issues/338
+2. Improve the performance of the new BatchEnforce() API: https://github.com/casbin/casbin/issues/710
+3. Make an authorization plugin/middleware for kubernetes (k8s): https://github.com/casbin/k8s-authz/issues/2
+4. Help solve issues for the 1st-party and 3rd-party middlewares
 
 #### Requirements
 
@@ -66,25 +65,17 @@ Some issues to work on:
 
 #### Description
 
-In Java world, Apache Shiro and Spring Security are very popular security frameworks. We need to find ways to wrap jCasbin into a middleware of the above both, so Shiro and Spring users can use jCasbin without much migration efforts.
+In Java world, Apache Shiro and Spring Security are very popular security frameworks. We need to find ways to improve the Casbin middlewares for both of them, so Shiro and Spring Security users can use jCasbin without many migrating efforts.
 
-Another work is to develop jCasbin' middleware for most popular Java web frameworks, like how we did it for Golang: https://casbin.org/docs/en/middlewares
+Another work is to develop jCasbin' middleware for the popular Java web frameworks except Spring such as Play and Vert.x, like how we did it for Golang: https://casbin.org/docs/en/middlewares
 
 Some issues to work on:
 
-1. JCasbin [issuse](https://github.com/casbin/jcasbin/issues)
-
-2. casbin-spring-boot-starter support for Apache Shiro
-
-- Integrate Shiro with Casbin, for example : CasbinShiroRealm / CasbinShiroFilter.
-
-- Support for permission verification using Shiro annotations.
-
-3. casbin-spring-boot-starter support for Spring Security
-
-- Integrate Shiro with Casbin, for example : CasbinSpringSecurityAccessDecisionManager / CasbinSpringSecurityFilterInvocationSecurityMetadataSource / CasbinSpringSecurityInterceptor.
-
-- Support for permission verification using Spring Security annotations.
+1. Make a Play Framework middleware: https://github.com/casbin/jcasbin/issues/104
+2. Make a Vert.x middleware: https://github.com/casbin/jcasbin/issues/105
+3. Fix the bug about "ABAC with policy rule" doesn't work: https://github.com/casbin/jcasbin/issues/145
+4. Improve the user experience of the SpringBoot middleware: https://github.com/jcasbin/casbin-spring-boot-starter
+5. Make an example project that uses our Shiro middleware: https://github.com/jcasbin/shiro-casbin
 
 #### Requirements
 
