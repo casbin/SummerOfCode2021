@@ -105,7 +105,7 @@ The feature and ecosystem of Casbin.NET are gradually improving. We hope to prov
 
 #### Mentor
 
-[Joey](https://github.com/xcaptain), Casbin member, [Zhikui Hua](https://github.com/huazhikui), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+[Joey Xie](https://github.com/xcaptain), Casbin member, [Zhikui Hua](https://github.com/huazhikui), Casbin member
 
 ### Casbin for Rust
 
@@ -136,7 +136,7 @@ With Casbin community's effort, the Rust version of Casbin is now mature and rea
 
 #### Mentor
 
-[Yisheng Chai](https://github.com/hackerchai), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+[Yisheng Chai](https://github.com/hackerchai), Casbin member, [Cheng JIANG](https://github.com/GopherJ), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
 ### Casbin for Node.js
 
@@ -157,7 +157,7 @@ Some issues to work on:
 
 #### Mentor
 
-[Zixuan Liu](https://github.com/nodece), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+[Zixuan Liu](https://github.com/nodece), Casbin member
 
 ### Casbin Hub
 
