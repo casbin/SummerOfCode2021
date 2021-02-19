@@ -39,6 +39,7 @@ The student will be more likely selected if he/she:
 - [Casbin Hub](#casbin-hub)
 - [Casbin for PHP](#casbin-for-php)
 - [Casbin for Python](#casbin-for-python)
+- [Casbin.js](#casbinjs)
 
 ### Casbin Core Engine (Golang)
 
@@ -236,3 +237,38 @@ Some issues to work on: https://github.com/casbin/pycasbin/issues
 #### Mentor
 
 [Jon Lee](https://github.com/techoner), Casbin member
+
+### Casbin.js
+
+Quite a lot of users want to use Casbin to control web frontend UI elements, like:
+
+1. Some tabs are only visible to admin users.
+2. Some buttons should be grayed-out for users with no permission to click them.
+3. A list can only show filtered items based on a user's permission rights.
+
+Currently, Node-Casbin already supports to run in browser. But the API like `enforce()` is still not friendly to frontend developers to control the visibility of a button. So we need:
+
+1. A frontend developer friendly API for authorization based on Casbin, e.g., `isVisible(button_id)`
+2. A mechanism to load model and policy data from backend. Of course we assume the backend also uses a Casbin implementation.
+
+The current progress is: https://github.com/casbin/casbin.js
+
+Currently, we still lack the middlewares for Angular, React and Vue. These new JS frameworks are very popular and making middlewares for them will boost our usage from their population.
+
+Some issues to work on:
+
+1. Make a React authz middleware for Casbin.js: https://github.com/casbin/casbin.js/issues/26
+2. Make a Vue authz middleware for Casbin.js: https://github.com/casbin/casbin.js/issues/27
+3. Support Key Matching: https://github.com/casbin/casbin.js/issues/15
+4. Support domains in model: https://github.com/casbin/casbin.js/issues/25
+5. Resolve Casbin.js 0.1.0 with react-scripts 4.0.2 conflict: https://github.com/casbin/casbin.js/issues/28
+
+#### Requirements
+
+1. Javascript
+2. Node-Casbin
+3. At least one backend language like Golang
+
+#### Mentor
+
+[Zihui Liu](https://github.com/kingiw), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
