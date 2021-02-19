@@ -32,6 +32,7 @@ The student will be more likely selected if he/she:
 
 - [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
 - [Casbin for Java](#casbin-for-java)
+- [Casbin for .NET](#casbin-for-net)
 - [Casbin for Rust](#casbin-for-rust)
 
 ### Casbin Core Engine (Golang)
@@ -89,6 +90,27 @@ Some issues to work on:
 #### Mentor
 
 [Zhengjin Fang](https://github.com/fangzhengjin), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin for .NET
+
+#### Description
+
+The feature and ecosystem of Casbin.NET are gradually improving. We hope to provide complete features with a goal to Golang Casbin, excellent performance, and suitable for user experience in .NET. There are some important features that need to be implemented:
+
+1. Rule Indexing feature : [issue #132](https://github.com/casbin/Casbin.NET/issues/132)
+
+2. Parallel enforcing feature : [issue #134](https://github.com/casbin/Casbin.NET/issues/134)
+
+2. Multiple request, policy, effect, matcher type support : [issue #134](https://github.com/casbin/Casbin.NET/issues/134)
+
+#### Requirements
+
+1. .NET/C#
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Joey](https://github.com/xcaptain), Casbin member, [Zhikui Hua](https://github.com/huazhikui), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
 ### Casbin for Rust
 
