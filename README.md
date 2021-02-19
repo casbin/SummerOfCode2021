@@ -65,7 +65,21 @@ In Java world, Apache Shiro and Spring Security are very popular security framew
 
 Another work is to develop jCasbin' middleware for most popular Java web frameworks, like how we did it for Golang: https://casbin.org/docs/en/middlewares
 
-Some issues to work on: https://github.com/casbin/jcasbin/issues 
+Some issues to work on:
+
+1. JCasbin [issuse](https://github.com/casbin/jcasbin/issues)
+
+2. casbin-spring-boot-starter support for Apache Shiro
+
+- Integrate Shiro with Casbin, for example : CasbinShiroRealm / CasbinShiroFilter.
+
+- Support for permission verification using Shiro annotations.
+
+3. casbin-spring-boot-starter support for Spring Security
+
+- Integrate Shiro with Casbin, for example : CasbinSpringSecurityAccessDecisionManager / CasbinSpringSecurityFilterInvocationSecurityMetadataSource / CasbinSpringSecurityInterceptor.
+
+- Support for permission verification using Spring Security annotations.
 
 #### Requirements
 
