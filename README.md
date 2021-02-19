@@ -97,11 +97,9 @@ Some issues to work on:
 
 The feature and ecosystem of Casbin.NET are gradually improving. We hope to provide complete features with a goal to Golang Casbin, excellent performance, and suitable for user experience in .NET. There are some important features that need to be implemented:
 
-1. Rule Indexing feature : [issue #132](https://github.com/casbin/Casbin.NET/issues/132)
-
-2. Parallel enforcing feature : [issue #134](https://github.com/casbin/Casbin.NET/issues/134)
-
-2. Multiple request, policy, effect, matcher type support : [issue #134](https://github.com/casbin/Casbin.NET/issues/134)
+1. Rule Indexing feature : https://github.com/casbin/Casbin.NET/issues/132
+2. Parallel enforcing feature : https://github.com/casbin/Casbin.NET/issues/133
+2. Multiple request, policy, effect, matcher type support : https://github.com/casbin/Casbin.NET/issues/134
 
 #### Requirements
 
