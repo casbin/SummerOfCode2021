@@ -36,6 +36,8 @@ The student will be more likely selected if he/she:
 - [Casbin for Rust](#casbin-for-rust)
 - [Casbin for Node.js](#casbin-for-node.js)
 - [Casbin Hub](#casbin-hub)
+- [Casbin for PHP](#casbin-for-php)
+- [Casbin for Python](#casbin-for-python)
 
 ### Casbin Core Engine (Golang)
 
@@ -183,3 +185,38 @@ Casbin Hub is similar to [Docker Hub](https://hub.docker.com/search?q=&type=edit
 #### Mentor
 
 [Zixuan Liu](https://github.com/nodece), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin for PHP 
+
+#### Description
+
+1. Full implementation of Casbin(go) by PHP, then fix [issues](https://github.com/php-casbin/php-casbin/issues).
+2. Improve some [extensions](https://github.com/php-casbin).
+
+#### Requirements
+
+1. PHP
+2. Casbin
+
+#### Mentor
+
+[Jon Lee](https://github.com/techoner), Casbin member
+
+### Casbin for Python
+
+#### Description
+
+1. At present, compared to Casbin for Golang, `Pycasbin` is not very perfect, especially the lack of RBAC API, so we hope that `Pycasbin` can fully implement the function of Casbin (Go).
+2. `PyCasbin`'s adaptation to various frameworks, such as `Django`, `Tornado`, etc.
+
+Pycasbin organization: https://github.com/pycasbin
+Some issues to work on: https://github.com/casbin/pycasbin/issues
+
+#### Requirements
+
+1. Python
+2. Other languages that Casbin is written with
+
+#### Mentor
+
+[Jon Lee](https://github.com/techoner), Casbin member
