@@ -32,6 +32,7 @@ The student will be more likely selected if he/she:
 
 - [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
 - [Casdoor](#casdoor)
+- [Casbin Forum](#casbin-forum)
 - [Casbin for Java](#casbin-for-java)
 - [Casbin for .NET](#casbin-for-net)
 - [Casbin for Rust](#casbin-for-rust)
@@ -87,6 +88,32 @@ The current progress is: https://door.casbin.com/. Source code: https://github.c
 #### Mentor
 
 [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin Forum
+
+#### Description
+
+Casbin-forum is a light-weight forum software. It is used by Casbin community as the official developer forum (https://forum.casbin.com/). We hope to fix its bugs and add more features like mailing list to replace the traditional open-source community mailing list.
+
+The current progress is: https://github.com/casbin/casbin-forum
+
+Some issues to work on:
+
+1. Integrate open-source mailing list functionality to our forum: https://github.com/casbin/casbin-forum/issues/112
+2. Make it SEO friendly via SSR: https://github.com/casbin/casbin-forum/issues/122
+3. The text area is at risk of XSS injection: https://github.com/casbin/casbin-forum/issues/131
+4. The ranking pages do not display correctly: https://github.com/casbin/casbin-forum/issues/132
+5. Use Casdoor as the authentication system: https://github.com/casbin/casbin-forum/issues/145
+
+#### Requirements
+
+1. Golang (backend)
+2. Javascript + React (frontend)
+3. Casbin
+
+#### Mentor
+
+[Junjie Zhang](https://github.com/kocoler), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
 ### Casbin for Java
 
