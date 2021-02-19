@@ -40,6 +40,7 @@ The student will be more likely selected if he/she:
 - [Casbin for PHP](#casbin-for-php)
 - [Casbin for Python](#casbin-for-python)
 - [Casbin.js](#casbinjs)
+- [Casbin for Lua](#casbin-for-lua)
 
 ### Casbin Core Engine (Golang)
 
@@ -272,3 +273,24 @@ Some issues to work on:
 #### Mentor
 
 [Zihui Liu](https://github.com/kingiw), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin for Lua
+
+#### Description
+
+Port Golang Casbin into Lua. We call it `lua-casbin`. It should work on the Nginx + OpenResty stack. Most of Casbin's functionalities (for example 90%) should work.
+
+Nginx is now the most popular HTTP server in the world. OpenResty is a web platform based on Nginx which can run Lua scripts using its LuaJIT engine. Nginx + OpenResty are usually used in edge computing and authorization is a real need for its scenario. Lua-Casbin will help Nginx and OpenResty users on checking permissions of the coming HTTP request.
+
+The current progress is: https://github.com/casbin/lua-casbin
+
+#### Requirements
+
+1. Nginx
+2. OpenResty
+1. Lua
+2. Golang (only need to read code)
+
+#### Mentor
+
+[Yang Luo](https://github.com/hsluoyz), Casbin founder
