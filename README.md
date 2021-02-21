@@ -37,7 +37,7 @@ The student will be more likely selected if he/she:
 - [Casbin for .NET](#casbin-for-net)
 - [Casbin Sam](#casbin-sam)
 - [Casbin for Rust](#casbin-for-rust)
-- [Casbin for Node.js](#casbin-for-node.js)
+- [Casbin for Node.js](#casbin-for-nodejs)
 - [Casbin Hub](#casbin-hub)
 - [Casbin for PHP](#casbin-for-php)
 - [Casbin for Python](#casbin-for-python)
