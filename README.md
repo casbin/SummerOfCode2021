@@ -33,6 +33,7 @@ The student will be more likely selected if he/she:
 - [Casbin Core Engine (Golang)](#casbin-core-engine-golang)
 - [Casdoor](#casdoor)
 - [Casbin Forum](#casbin-forum)
+- [Casbin for C/C++](#casbin-for-cc)
 - [Casbin for Java](#casbin-for-java)
 - [Casbin for .NET](#casbin-for-net)
 - [Casbin Sam](#casbin-sam)
@@ -116,6 +117,23 @@ Some issues to work on:
 #### Mentor
 
 [Junjie Zhang](https://github.com/kocoler), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
+
+### Casbin for C/C++
+
+#### Description
+
+We already have a C/C++ version Casbin called [Casbin-CPP](https://github.com/casbin/casbin-cpp). It already works on all primary OSs, like Windows, Linux, macOS. Most of Casbin's functionalities (for example 90%) should work. There are still many bugs and missing features in Casbin-CPP. Moreover, we also need to make authz middlewares for other C++ projects like [Mosquitto](https://github.com/casbin/casbin-cpp/issues/79 ) and adapters for DB. We also have plan to make Casbin-CPP as a base layer to build the next-generation PyCasbin and PHP-Casbin on top of it (see [PyCasbin on CPP](https://github.com/casbin/pycasbin-on-cpp )) for better performance (a lot of Python packages like numpy and tensorflow rely on the underlying C++ code). So Casbin-CPP needs to provide necessary help if needed for PyCasbin and PHP-Casbin developers.
+
+The current progress is: https://github.com/casbin/casbin-cpp
+
+#### Requirements
+
+1. C/C++
+2. Golang (only need to read code)
+
+#### Mentor
+
+[Joey Xie](https://github.com/xcaptain), Casbin member, [Yang Luo](https://github.com/hsluoyz), Casbin founder
 
 ### Casbin for Java
 
