@@ -1,12 +1,18 @@
 # Google Summer Of Code 2021 for Casbin
 
-Note: This page tracks the ideas from Casbin community for GSoC 2021. Casbin has finished the organization application for GSoC 2021 but it does NOT mean that Casbin will definitely be selected by Google as a participating organization for GSoC 2021.
-
-Moreover, there are some significant changes like the smaller project size in GSoC 2021, see details at GSoC official site: https://opensource.googleblog.com/2020/10/google-summer-of-code-2021-is-bringing.html
+Note: There are some significant changes like the smaller project size in GSoC 2021, see details at GSoC official site: https://opensource.googleblog.com/2020/10/google-summer-of-code-2021-is-bringing.html
 
 ## What is Google Summer Of Code?
 
 Google Summer of Code (GSoC) is a global program held by Google to bring students into open source software development. Students work with an open source organization on a 3 month programming project during their break from school. See more details at: https://summerofcode.withgoogle.com/
+
+## Congratulations!
+
+Casbin has been selected as a Google Summer of Code 2021 mentor organization for the second year!
+
+We still don't know how many slots we will get yet. But students are already free-to-go to make contact with Casbin people and do some code-level contributions to Casbin projects to let the community know you more.
+
+![congrats](congrats.png)
 
 ## How we select students:
 
