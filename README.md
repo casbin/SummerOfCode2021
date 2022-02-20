@@ -1,3 +1,5 @@
+# Go to: https://github.com/casbin/SummerOfCode2022
+
 # Google Summer Of Code 2021 for Casbin
 
 Note: There are some significant changes like the smaller project size in GSoC 2021, see details at GSoC official site: https://opensource.googleblog.com/2020/10/google-summer-of-code-2021-is-bringing.html
